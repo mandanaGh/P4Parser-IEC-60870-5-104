@@ -14,6 +14,6 @@ The frame format is determined by the two last bits of the first control field (
 <img src="https://github.com/mandanaGh/P4Parser-IEC-60870-5-104/blob/main/images/Screenshot%202021-09-08%20at%2014.04.08.png" width="350"></p>
 
 # How to use the code
-The IEC104Parser.P4 should be compiled and executed in bmv2 target.
+The IEC104Parser.p4 should be compiled and executed in bmv2 target.
 
 Tested on bmv2 with target simple_switch
