@@ -9,4 +9,7 @@ bytes.
 <img src="https://github.com/mandanaGh/P4Parser-IEC-60870-5-104/blob/main/images/Screenshot%202021-09-08%20at%2013.40.38.png" width="600"></p>
 The frame format is determined by the two last bits of the first control field (CF1). The standard defines three frame format. 
 
-<b>S-frames</b> (for numbered supervisory functions) and <b>U-frames</b> (for unnumbered control functions) are built from only the APCI. <b>I-frames</b> (used for information transfer), consist additionally of Application Service Data Units (ASDUs). ASDUs determine what kind of function (the so-called Type ID) they carry. They can contain up to 127 Information Objects (IOs), referring to different addresses on the RTU that is being controlled.
+<b>S-frames</b> (for numbered supervisory functions) and <b>U-frames</b> (for unnumbered control functions) are built from only the APCI. <b>I-frames</b> (used for information transfer), consist additionally of Application Service Data Units (ASDUs). ASDUs determine what kind of function (the so-called Type ID) they carry. They can contain up to 127 Information Objects (IOs), referring to different addresses on the RTU that is being controlled. The below figure shows the format of ASDUs.
+<p align="center">
+<img src="https://github.com/mandanaGh/P4Parser-IEC-60870-5-104/blob/main/images/Screenshot%202021-09-08%20at%2014.04.08.png" width="350"></p>
+
