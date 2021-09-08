@@ -15,15 +15,15 @@ The frame format is determined by the two last bits of the first control field (
 
 # Standard IEC 60870-5-104 ASDU - Typeids 
 
-M_SP_NA_1  1      /* single-point information 																*/
+M_SP_NA_1   1      /* single-point information 																*/
 
-M_DP_NA_1  3      /* double-point information 																*/
+M_DP_NA_1   3      /* double-point information 																*/
 
-M_ST_NA_1  5      /* step position information 																*/
+M_ST_NA_1   5      /* step position information 																*/
 
-M_BO_NA_1  7      /* bitstring of 32 bits 																	*/
+M_BO_NA_1   7      /* bitstring of 32 bits 																	*/
 
-M_ME_NA_1  9      /* measured value, normalized value 														*/
+M_ME_NA_1   9       /* measured value, normalized value 														*/
 
 #define M_ME_NB_1  11     /* measured value, scaled value 															*/
 #define M_ME_NC_1  13     /* measured value, short floating point number 											*/
