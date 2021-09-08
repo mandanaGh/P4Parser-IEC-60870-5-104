@@ -15,4 +15,5 @@ The frame format is determined by the two last bits of the first control field (
 
 # How to use the code
 The IEC104Parser.P4 should be compiled and executed in bmv2 target.
+
 Tested on bmv2 with target simple_switch
